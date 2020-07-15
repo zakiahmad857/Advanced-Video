@@ -2,7 +2,7 @@ import RTCClient from './rtc-client.js'
 import SketchPad, {colors, widths} from './sketchpad.js'
 import {getDevices, serializeFormData, validator, resolutions, Toast} from './common.js'
 
-import './assets/style.css'
+//import './assets/style.css'
 //import * as M from 'materialize-css'
 
 // handle current tab or window inactive scenario
