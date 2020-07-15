@@ -3,7 +3,7 @@ import SketchPad, {colors, widths} from './sketchpad'
 import {getDevices, serializeFormData, validator, resolutions, Toast} from './common'
 
 import './assets/style.css'
-import * as M from 'materialize-css'
+import * as M from './materialize.min.js'
 
 // handle current tab or window inactive scenario
 // If current tab or window inactive `visibilitychange` would occurs and we would change `activate` state so that it will switch to another async render way 
